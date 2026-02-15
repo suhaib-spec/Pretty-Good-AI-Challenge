@@ -15,13 +15,11 @@ def log_report():
     if not data:
         return jsonify({"error": "No data provided"}), 400
     
-    issue = data.get("issue", "")
+    issue = data.get("issue") or data.get("message") or data.get("args", {}).get("issue") or str(data)
     timestamp = datetime.now().isoformat()
     
     with open(LOGS_FILE, "a") as f:
         f.write(f"\n[{timestamp}] ISSUE: {issue}\n")
-    
-    print(f"[{timestamp}] ISSUE: {issue}")
     
     return jsonify({"status": "logged", "issue": issue}), 200
 
