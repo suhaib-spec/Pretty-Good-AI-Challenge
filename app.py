@@ -32,8 +32,9 @@ def call_ended_webhook():
     event = data.get("event", "unknown")
     call = data.get("call", {})
     
-    print(f"Webhook received: {event}")
-
+    # Only process call_analyzed - that's the one with the transcript
+    if event != "call_analyzed":
+        return jsonify({"status": "ignored", "event": event}), 200
     
     with open(LOGS_FILE, "a") as f:
         f.write(f"\n{'='*60}\n")
@@ -52,7 +53,6 @@ def call_ended_webhook():
         
         f.write(f"\n--- END ---\n")
     
-    print(f"Transcript saved for call {call.get('call_id')}")
     return jsonify({"status": "received"}), 200
 
 
