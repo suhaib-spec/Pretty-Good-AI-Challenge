@@ -1,0 +1,36 @@
+
+============================================================
+[2026-02-15T17:28:04.571597] CALL_STARTED
+Call ID: call_c58042699b4053f81103867089c
+
+============================================================
+[2026-02-15T17:29:00.011302] REPORT
+Severity: medium
+Message: 
+
+============================================================
+[2026-02-15T17:30:02.538692] REPORT
+Severity: medium
+Message: 
+
+============================================================
+[2026-02-15T17:30:09.620120] CALL_ENDED
+Call ID: call_c58042699b4053f81103867089c
+Disconnection reason: user_hangup
+
+============================================================
+[2026-02-15T17:30:09.630141] CALL_ANALYZED
+Call ID: call_c58042699b4053f81103867089c
+Duration: 123599ms
+Recording: https://dxc03zgurdly9.cloudfront.net/fb983ab4c9e4f4598fb795cee507a5878dfb4ef08a6d9d75a4a7ad9e4b653bf9/recording.wav
+
+--- TRANSCRIPT ---
+User: Recorded. Quality and training purposes. I I know I'm opening my Thanks for calling Through The Point Orthopedics. We're a pretty good AI. Am I speaking with Sue Hai Booted?
+Agent: Um, hi. Uh, no, this is not Sue Hai Booted. I think maybe you got the wrong name? I'm just calling to ask about, like, office hours and insurance stuff.
+User: Got it. I'll help with your questions. Dana Point Orthopedics is open Monday and Tuesday from nine AM to four PM. Wednesday from noon to seven PM, Thursday from nine AM to four PM, and Friday from nine AM to noon, all in central time. We welcome new patients and accept most insurance plans. If you need to update your insurance on file or have specific questions, just let me know.
+User: Our office hours are Monday, Tuesday, and Thursday. From nine AM to four PM. Wednesday is noon to seven PM. And Friday is nine AM to noon, all in central time. We accept most insurance plans and welcome new patients. If you want to update your insurance or have a specific question about coverage, let me know.
+Agent: Oh, um, wait—so is the office closed on weekends? And, uh, you said Monday, Tuesday, and Thursday, but before you said Monday through Friday. Which days are you actually open?
+User: Let me clear that up. The clinic is open Monday, Tuesday, and Thursday from nine AM to four PM. Wednesday from noon to seven PM, and Friday from nine AM to noon. We are closed on weekends.
+User: me know if you have questions about appointments or insurance.
+
+--- END TRANSCRIPT ---
