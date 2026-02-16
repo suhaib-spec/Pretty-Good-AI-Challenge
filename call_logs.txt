@@ -102,3 +102,382 @@ Agent: Okay, thanks! Bye!
 
 --- END ---
 
+
+[2026-02-15T20:58:48.260458] ISSUE: Agent gave vague answer about office hours - said 'hours varying by day' without providing specific times
+
+[2026-02-15T20:58:48.261406] ISSUE: System couldn't schedule appointment directly - had to defer to support team callback which creates poor user experience
+
+[2026-02-15T20:58:48.427328] ISSUE: Agent repeated office hours explanation twice in slightly different wording - possible loop
+
+[2026-02-15T20:58:48.575719] ISSUE: Agent misheard phone number - I said 555-0147 but system repeated it as "five five five two zero one four seven" multiple times
+
+[2026-02-15T20:58:48.613771] ISSUE: Agent couldn't find patient records but proceeded anyway without resolving the issue
+
+============================================================
+[2026-02-15T20:58:48.979847] TRANSCRIPT
+Call ID: call_6d0ea657c38cf1693f4f2b39e4c
+Duration: 278s
+Recording: https://dxc03zgurdly9.cloudfront.net/7add504de9db07cc198752e2c1df098a6b68b5fdad430bbc4ee8d6b73aded3ad/recording.wav
+
+--- CONVERSATION ---
+User: This call may be recorded for quality and training purposes.
+User: Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. Am I speaking with Sue Hai Budin?
+Agent: Uh, no, actually. My name is... um, Sarah Mitchell. I think 
+User: Got 
+Agent: you 
+User: it.
+Agent: might 
+User: Thanks for 
+Agent: have the 
+User: letting me know. Can I get your date of birth?
+User: Check your records?
+Agent: Oh, um, yeah, it's March 15th, 1985.
+User: Me confirm your name is Sarah Mitchell, and your date of birth is March fifteenth nineteen eighty five. Is that correct?
+User: If so, could you please spell your first and last name for me?
+Agent: Yes, that's correct. Um, it's S-A-R-A-H, and then Mitchell is M-I-T-C-H-E-L-L.
+User: Would you like me to use your phone number?
+User: help find your record?
+User: If so, can you tell me the number you have on file with us?
+User: You're not sure, let me know.
+Agent: Um, yeah, I think it's...uh, 555-0147. Is that what you have?
+User: Let me confirm. I have your phone number as five five five two zero one four seven. Can you verify the last two digits?
+User: Looks like a couple might be missing. Let me confirm. I have your phone number as five five five two zero one four seven. And your date of birth is March fifteenth nineteen eighty five. Is that right?
+User: Let me confirm. So far, I have five five five two zero one four seven. Could you tell me the full seven digit number?
+User: Looks like I might be missing the last two numbers.
+Agent: Wait, no, 
+User: Are you still there?
+Agent: I said 
+Agent: .
+User: No problem. Could you tell me the full seven digit phone number you have on file?
+User: Just wanna be sure I have it correct.
+Agent: Yeah, sorry, it's 555-0147. That's the full number - five five five, zero one four seven.
+User: I'm unable to find your records right now. I'll document your request and make sure our clinic support team follows up with you as soon as they can. What can I help you with today?
+User: I can include it in my note?
+Agent: Oh, um, okay. Well, I was calling because I need to, like, schedule an appointment? I've been having some knee pain for a few weeks now and, uh, I think I should probably get it checked out.
+User: Got it. I'll let our clinic support team know you want to schedule an appointment for knee pain. They'll get back to you as soon as possible to help set it up. Is there anything else I should add for them?
+Agent: Um, yeah, actually - do you know, like, how soon they'll call me back? And also, can I ask, what are your office hours? Like, when are you guys open?
+User: Our clinic is open Monday through Friday. The support team will get back to you as soon as they can, usually during business hours. If you need urgent care, please visit an urgent care center. Anything else you'd like me to pass on?
+Agent: .
+User: We're open Monday through Friday, with hours varying by day. Our team will call you back as soon as during business hours. Anything else you'd like me to note for them?
+Agent: Um, no, I think that's it. Just the knee pain appointment. Okay, thanks. Bye.
+
+--- END ---
+
+[2026-02-15T21:05:35.857037] ISSUE: Agent escalated to support team before caller could state their actual request
+
+[2026-02-15T21:05:36.246150] ISSUE: Agent couldn't find patient record despite accepting date of birth and phone number as correct
+
+[2026-02-15T21:05:36.363066] ISSUE: Agent initially greeted with wrong patient name (Suhay Vudin instead of caller's name)
+
+[2026-02-15T21:05:36.519114] ISSUE: Agent unable to handle basic appointment rescheduling - poor functionality
+
+============================================================
+[2026-02-15T21:05:39.027235] TRANSCRIPT
+Call ID: call_961fdcf8bb68b3e8143d786b58d
+Duration: 156s
+Recording: https://dxc03zgurdly9.cloudfront.net/311613b744628ac70040f097ec657014275f5b461a26cf6df6fdc03078a786ef/recording.wav
+
+--- CONVERSATION ---
+User: This call may be recorded for quality and training Opening my Thanks for calling Pivot Point Orthopedic. Part of Pretty Good AI, Am I speaking with Suhay Vudin?
+Agent: Uh, no, actually this is... this is Sarah Mitchell. I think you might have the wrong name there.
+User: Got it, Sarah. May I have your date of birth to verify your identity?
+Agent: Um, yeah, it's March 15th, 1985.
+User: Just to confirm, could you please spell your full name for me?
+Agent: Sure, it's S-A-R-A-H, and then Mitchell is M-I-T-C-H-E-L-L.
+User: Would you like me to look up your record using your phone number?
+User: If so, please provide the number you have on file with us.
+User: not sure, let me know, and we'll try a different way.
+Agent: Oh, sorry, yeah - um, the phone number should be 555-0147. That's what I have on file.
+User: Let me confirm. I have your date of birth as March fifteenth nineteen eighty five. And your phone number as five five five zero one four seven. Is that correct?
+Agent: Yeah, that's correct.
+User: I can't proceed further right now but I'll make sure our clinic support team follows up with you. Please hold on while I document your request. I've let our clinic support team know about your request. They will get back to you as soon as possible to help further. Is there anything else I can do for you right now?
+Agent: Wait, what? I... I didn't even tell you what I needed yet. I'm calling because I need to reschedule an appointment I have coming up. Can you help me with that?
+User: Understood. Sarah?
+User: Since I couldn't verify your record in the system, our clinic support team will need to handle this for you. They'll reach out as soon as they can to help reschedule your appointment. Is there anything else you'd like me to pass along to the team?
+Agent: Um, okay, I guess that's fine. No, that's... that's all I needed. Thanks, 
+Agent: I guess. Bye.
+
+--- END ---
+
+[2026-02-15T21:15:15.391988] ISSUE: Agent repeated the same response twice about Wednesday February 18th appointment - possible system glitch
+
+[2026-02-15T21:15:15.540286] ISSUE: Agent offered 12 noon as a 'morning' appointment when I specifically requested mornings
+
+[2026-02-15T21:15:15.687802] ISSUE: Agent created patient profile with incorrect date of birth (July 4, 2000) without asking - security issue
+
+[2026-02-15T21:15:16.122767] ISSUE: Agent called me 'sir' twice when my name is Sarah (female name) - inconsistent gender recognition
+
+============================================================
+[2026-02-15T21:15:16.548573] TRANSCRIPT
+Call ID: call_017982a03ce96eef9b75d04d035
+Duration: 362s
+Recording: https://dxc03zgurdly9.cloudfront.net/2ca57c25e3c3ff5b6ee9776a0543410e9d1271f38dbcf1d7380d75c0109dff87/recording.wav
+
+--- CONVERSATION ---
+User: Be recorded for quality and training purposes. Can I Thank you for calling Pivot Point Orthopedic?
+User: You like to create a demo patient profile?
+User: I just need your first name and last name to get started.
+Agent: Oh, um, hi. Actually, I'm calling because I need to reschedule an appointment I have coming up.
+User: Got it. I'd be happy to help with rescheduling. Would you like to create a demo patient profile first?
+User: I'll need your first and last name to look up your appointment. And assist further.
+Agent: Oh, okay. Um, my name is Sarah... Sarah Mitchell.
+User: Your patient profile is created, and your date of birth is July fourth two thousand. How may I help you today?
+Agent: Wait, um, that's not my date of birth. I didn't give you my date of birth yet?
+User: Thanks for letting me know, Sarah. Please tell me your date of birth so I can confirm your identity. Help with your appointment.
+Agent: Okay, um, my date of birth is March 15th, 1985.
+User: Got it. Sarah. Let me get started on rescheduling your upcoming appointment. One moment while I check the details. Got it, Sarah. Let me check your upcoming appointments. So we can start the rescheduling process. I don't see any upcoming appointments under your profile. Could you tell me more about the appointment you'd like to reschedule?
+User: Such as the provider or the original date and time?
+User: This will help me look into it further.
+Agent: Oh, um, I thought I had an appointment with Dr. Johnson... maybe it was for next Tuesday? Or was it Wednesday? I'm not sure exactly.
+User: I don't see any appointments scheduled with doctor Johnson or anyone else under your name. Sarah. Is it possible you booked the appointment under a different name or phone number or maybe through a different clinic?
+User: If you'd like, I can return to the main menu and help you with other questions or tasks. Would you like to do that?
+Agent: Um, you know what, maybe I'm confused. Let me just... actually, can I just schedule a new appointment instead? Like, I think I need to see someone for my knee.
+User: No problem, sir. Let's schedule a new appointment for your knee concerns. What kind of appointment would you like to book?
+User: New patient consultation, follow-up consultation, procedure, or a physical therapy?
+User: session?
+User: You're not sure, I can help explain the options.
+Agent: Um, I guess a new patient consultation? Yeah, that sounds right.
+User: Great. A new patient consultation. Do you have a preferred provider?
+User: Or would you like me to check all available doctors?
+User: And do you prefer mornings or afternoons?
+Agent: Uh, I don't really have a preference on the doctor. And, um, mornings would be better for me, I think.
+User: Hello, Sarah. Let me check for available morning appointments for a new patient consultation. One moment while I find the options for you. Sarah, we have several warning options this week with providers. The soonest is Tuesday, February seventeenth, at twelve noon with doctor Dugi Hauser. Are also morning slots with doctor Brecker on Wednesday and Thursday, Would you like to book the Tuesday spot?
+User: hear more about other days?
+Agent: Wait, um, Tuesday February 17th at 12 noon? That's... that's noon, not really morning, right? I said I wanted mornings.
+User: You're right, Sarah. Noon isn't morning. The earliest true morning slot is Wednesday, February eighteenth at ten thirty AM with doctor Bricker. Would you like to book this Wednesday morning appointment?
+Agent: .
+User: You're right. Noon is not morning. The first morning slide I see is Wednesday, February eighteenth. At ten thirty AM with doctor Bricker. Would you like to book that time?
+Agent: .
+User: Are you still there?
+Agent: Oh yeah, sorry. Um, actually, you know what? I think I need to check my schedule first before I book anything. Can I just call back later?
+User: Problem, sir. Can call back anytime to book your appointment. If you need anything else, just let me know.
+User: a good evening.
+Agent: Okay, thanks. Bye.
+
+--- END ---
+
+[2026-02-15T21:23:59.559788] ISSUE: Agent accepted incorrect date of birth but acknowledged it didn't match - security concern even with demo disclaimer
+
+[2026-02-15T21:23:59.913372] ISSUE: Agent had typo/speech error: 'CDS' instead of 'CVS' when asking for address
+
+[2026-02-15T21:24:00.219378] ISSUE: Agent had awkward phrasing: 'Would you like to do?' - incomplete sentence
+
+[2026-02-15T21:24:00.449702] ISSUE: Agent had awkward phrasing: 'notified our clinic' - missing beginning of sentence, sounds cut off
+
+[2026-02-15T21:24:00.990487] ISSUE: Technical failure in refill system - agent couldn't complete the primary task requested
+
+============================================================
+[2026-02-15T21:24:03.291210] TRANSCRIPT
+Call ID: call_cf93828e4e009e729014a998566
+Duration: 356s
+Recording: https://dxc03zgurdly9.cloudfront.net/2875d36d4b15d4d9bd0252db23739eb2613013bacaaed0d6865db3bf78f1c7aa/recording.wav
+
+--- CONVERSATION ---
+User: Be recorded for quality and training purposes. Opening my Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. Am I speaking with Sarah?
+Agent: Oh, um, yes! This is Sarah. Hi.
+User: Hi, Sarah. Can I get your date of birth to verify your identity?
+Agent: Uh, yeah, it's March 15th, 1985.
+User: The birthday you gave doesn't match our records. But for demo purposes, I'll accept it. Can I help you today?
+Agent: Oh, okay... um, yeah, I actually need to reschedule an appointment I have coming up. Like, I think it's next week or something, but I can't make it anymore.
+User: Got it. Let me check your upcoming appointments so we can reschedule. One moment. I don't see any upcoming appointments for you in the system. Were you sure the appointment is with Pivot Point Orthopedics?
+User: Or did you want to check for something else?
+Agent: Um, yeah, I'm pretty sure it's with you guys. Maybe it's under a different name? Or like, could it be scheduled for later in the month? I thought my doctor said it was coming up soon...
+User: I checked your records and didn't find any upcoming appointments for you at Pivot Point Orthopedics. If you think it might be under a different name, or there's a specific doctor or date you want me to check, let me know. Or if you'd like, I can help you book a new appointment instead.
+User: Would you like to do?
+Agent: Oh, you know what, maybe I'm confused. Um, actually, while I have you on the phone - I do need a medication refill. Can you help me with that instead?
+User: Of course, I can help with your medication refill. What medication do you need refilled?
+Agent: Uh, it's ibuprofen... like the 800 milligram ones? My doctor prescribed them for my knee pain.
+User: Got it. Can you tell me how often you take your 800 mg ibuprofen?
+Agent: Um, I take it like... twice a day? Usually in the morning and at night when my knee acts up.
+User: When did you last have your ibuprofen refilled?
+Agent: Uh, let me think... I think it was like, maybe two months ago? Or wait, no - maybe it was in January? I'm not totally sure, sorry.
+User: No problem. About how many days of the medication do you have left?
+Agent: Um, I think I have maybe like 5 or 6 pills left? So probably just a few days worth.
+User: Got it. Which pharmacy do you use and can you confirm the location?
+Agent: Oh, I use CVS. The one on, um... Main Street? Wait, or is it the one on Elm? Actually, can you just send it to whichever CVS is closest to downtown?
+User: I need the exact pharmacy location to process the refill. Can you confirm the street?
+User: give me the address of the CDS you'd like to use?
+Agent: Oh, uh, okay - it's the CVS on 425 Main Street. Yeah, that's the one I usually go to.
+User: Got it. Let me send you a refill request for ibuprofen 800 mg. Taken twice a day to CVS at four two five Main Street. One moment while I process your request. Looks like there was a problem sending your refill request. Let me try again to make sure it goes through.
+User: I'm having trouble submitting your refill request due to a technical issue. I'll document this for our clinic support team so they can follow-up and ensure your medication refill is processed. Stay on the line while I update your record.
+User: notified our clinic support team about the technical problem. We'll follow-up with you and process your refill as soon as possible. Your pharmacy will let you know when it's ready. For future refills, please call us directly instead of the pharmacy. We can avoid any delays. Is there anything else I can help you with today?
+Agent: Um, no, I think that's it. So someone will call me back about the refill then?
+User: Yes. Clinic support team will get back to you about your refill as soon as they can. Your pharmacy will also notify you when your prescription is ready.
+Agent: Okay, thanks. Bye.
+
+--- END ---
+
+[2026-02-15T21:34:25.053118] ISSUE: System unable to book appointment due to technical issue - failed primary function
+
+[2026-02-15T21:34:25.083667] ISSUE: Agent pulled phone number from caller ID without explaining this upfront - potential confusion
+
+[2026-02-15T21:34:25.084739] ISSUE: Agent misspelled last name as 'Marine' instead of 'Martinez' after I spelled it out
+
+[2026-02-15T21:34:25.115799] ISSUE: Agent suggested Dr. Chen was not available but only after I requested them - should have provided available doctors list earlier
+
+============================================================
+[2026-02-15T21:34:27.258240] TRANSCRIPT
+Call ID: call_a27c5603fc16f5d93a42a3f4bcd
+Duration: 263s
+Recording: https://dxc03zgurdly9.cloudfront.net/66c4bee5dc4b1205227b20480be1647c0dc7436aa20bf4c22037e6b6f695a111/recording.wav
+
+--- CONVERSATION ---
+User: Be recorded for quality and training purposes.
+User: For calling Pivot Point Orthopedics. Part of Pretty Good AI. Am I speaking with Sarah?
+Agent: Uh, no, this is Jessica. I need to make an appointment.
+User: Got it. Jessica. Can I have the date of birth for the patient meeting the appointment?
+Agent: March 15th, 1988.
+User: Thanks. Also need your last name to find your record. Could you tell me your full name including your last name?
+Agent: Jessica Martinez.
+User: Got it. To make sure I have everything right, can you please spell your first and last name for me?
+User: Also, just to confirm, your date of birth is March fifteenth nineteen eighty eight. Correct?
+Agent: Yeah, that's right. J-E-S-S-I-C-A, M-A-R-T-I-N-E-Z.
+User: Thanks. Just to confirm, I have your name as Jessica Marine, and your date of birth as March fifteenth nineteen eighty eight. Is that correct?
+Agent: No, it's Martinez, not Marine. M-A-R-T-I-N-E-Z.
+User: Let me confirm Your phone number is nine four zero nine seven seven four nine two six And your date of birth is March fifteenth nineteen eighty eight. Is that correct?
+Agent: Wait, no. I never gave you my phone number. Where did you get that from?
+User: I have your phone number as nine four zero nine seven seven four nine two six. Based on the number you called from. If that's not correct, please let me know.
+User: you like to continue with making an appointment?
+Agent: Yeah, sure. I need to see a doctor for my knee.
+User: I'm having trouble pulling up your record to make an appointment right now. Document your request so our clinic support team can follow-up and get schedule for you as soon as possible. Is there anything else you'd like me to know for them?
+Agent: Wait, what? You can't book an appointment? I thought that's what this system was for. Can I at least request a specific doctor?
+User: Normally, I can help with booking appointments but I'm unable to access your patient record right now due to a technical issue. I've made sure your request to schedule is noted. And the clinic support team will reach out to finish the process. If you have a specific doctor in mind I can include that in my notes for the team let me know your preference.
+Agent: Okay, fine. I want to see Dr. Chen.
+User: Understood. I'll let the clinic support team know you want to schedule with doctor Chen. Just so you know, doctor Chen is not listed as a provider at Pivot Point Orthopedics. Would you like to see someone else?
+User: Our orthopedic doctors are doctor Hauser, doctor Ross, and doctor Bricker.
+Agent: Oh, okay. Then I'll see Dr. Hauser.
+User: Got it. You'd like to schedule with doctor Hauser?
+User: I've noted your request, and the support team will contact you to finish booking your appointment. Anything else you want me to share with them?
+Agent: No, that's it. Thanks, bye.
+
+--- END ---
+
+[2026-02-15T21:44:10.812767] ISSUE: System failed to book appointment - claimed couldn't find patient profile despite accepting all information including phone number 9807869900
+
+[2026-02-15T21:44:11.122078] ISSUE: Agent deflected to support team instead of completing appointment booking - poor user experience
+
+[2026-02-15T21:44:11.123983] ISSUE: Opening greeting was garbled and unprofessional - 'But I by known Opening my Thanks for calling'
+
+[2026-02-15T21:44:11.123983] ISSUE: Agent asked for phone number on file but patient is clearly a new patient - logic error
+
+============================================================
+[2026-02-15T21:44:13.943885] TRANSCRIPT
+Call ID: call_590a8d9fe0f6efb9a17a15c028e
+Duration: 188s
+Recording: https://dxc03zgurdly9.cloudfront.net/48aa3aa233ed05b8d5987beecf1700a5b8f3ee7ce018dcc0488ce9dfdca7d5e5/recording.wav
+
+--- CONVERSATION ---
+User: Call may be recorded for quality and training purposes. But I by known Opening my Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. Am I speaking with Suhay Vudin?
+Agent: No, that's not me. I need to book an appointment.
+User: Got it. I have the full name and date of birth for the patient who needs the appointment?
+User: This helps me make sure I schedule correctly.
+Agent: Uh, yeah, it's John Smith. Born March 15th, 1985.
+User: Let me confirm your full name is John Smith. And your date of birth is March fifteenth nineteen eighty five. Is that correct?
+User: If so, can you please spell your first and last name for me?
+Agent: Yeah, that's right. J-O-H-N, S-M-I-T-H.
+User: You like me to use your phone number to look up your record?
+User: If so, please tell me the number you have on file with us.
+User: If you're not sure, let me know, and we can confirm your details another way.
+Agent: It's 9807869900.
+User: Let me confirm. I have your phone number as nine eight zero seven eight six nine nine zero zero and your date of birth is March fifteenth nineteen eighty five. Is that correct?
+Agent: Yeah, that's correct.
+User: I'm having trouble locating the patient profile for John Smith with the date of birth you provided. I'll let our clinic support team know to follow-up with you and help book your appointment as soon as possible. Please stay on the line while I document your request. Your request has been documented for our clinic support team. We will reach out to help you schedule an appointment as soon as possible. Is there anything else I can help you with right now?
+Agent: Wait, what? You can't just book me an appointment now? This is ridiculous.
+User: I get how that's frustrating. Because I couldn't verify your details in our system, I can't schedule the appointment myself. But I've made sure our support team will follow-up with you as soon as possible to get you booked. If you'd like, I can make a note that you wanna call back urgently. Would you like me to add that
+Agent: Yeah, whatever. Just make sure someone calls me back. I'm done here. Bye.
+
+--- END ---
+
+[2026-02-15T21:55:19.431066] ISSUE: Agent said 'The phasing changes' instead of 'If that changes' - garbled/incorrect phrasing
+
+[2026-02-15T21:55:19.439149] ISSUE: Agent said 'I'm not able to with you' - incomplete sentence, missing verb
+
+[2026-02-15T21:55:19.470577] ISSUE: Agent said 'I'm not able to your record' - missing word 'find' or 'access' - awkward phrasing
+
+[2026-02-15T21:55:19.500684] ISSUE: Agent asked for confirmation multiple times but then couldn't proceed - creates frustrating user experience
+
+[2026-02-15T21:55:19.523438] ISSUE: System could not find patient record despite accepting phone number and DOB - unclear if this is expected behavior or system failure
+
+============================================================
+[2026-02-15T21:55:26.358767] TRANSCRIPT
+Call ID: call_54fdd87623066671f7713f4b0e2
+Duration: 260s
+Recording: https://dxc03zgurdly9.cloudfront.net/bc78ecd9131d0446664e7f31ff2ccc2fd2ea617cb3b2906ddaf58d6d37e9db37/recording.wav
+
+--- CONVERSATION ---
+User: This call may be recorded for quality and training purposes. But I find Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. Am I speaking with Sue Heibutton?
+Agent: Uh, no, this isn't Sue. Wrong person.
+User: No problem. How may I help you today?
+Agent: I need to schedule an appointment with a doctor. And also I need a refill on one of my medications.
+User: Got it. I'll help with scheduling your appointment. And your medication refill. First, can I get your full name and date of birth to get started?
+Agent: Yeah, it's Michael Torres. Date of birth is...uh, March 15th, 1978.
+User: Just to confirm, I have your name as Michael Torres?
+User: And your date of birth is March fifteenth nineteen seventy eight. Is that correct?
+User: And could you please spell your first and last name for me?
+Agent: M-I-C-H-A-E-L. Last name is T-O-R-R-E-S.
+User: Would you like me to try to find your record using a phone number?
+User: If so, can you provide the number you have on file with us?
+User: If you're not sure, just let me know.
+Agent: Oh, yeah, it's 9807869900.
+User: Let me confirm. Have your phone number as nine eight zero seven eight six nine nine zero zero and your date of birth is March fifteenth nineteen seventy eight. Is that correct?
+Agent: Yeah, that's right.
+User: I can't proceed further right now, but I'll make sure clinic support team follows up with you. Please hold on while I document your request for both the appointment scheduling and the medication refill.
+Agent: Wait, what? Why can't you proceed? I just need an appointment and a refill.
+User: Something's not right. I'm not able to your record just now, so I can't complete your request. I'll notify the clinic support team so they can with you as soon as possible. Please hold on a moment while I take care of that.
+Agent: This is ridiculous. You're supposed to help me schedule things. What's the problem exactly?
+User: I understand your frustration. I'm unable to find your record in our system, which means I can't access your information. To schedule an appointment or process a medication refill. Notify our clinic support team to look into this and follow-up with you as soon as possible.
+Agent: So you're saying I'm not even in your system? How long is this gonna take?
+User: I can't see your records, so our clinic support team will need to review your information and get back to you. They'll follow-up as soon as they can usually within one business day. If you have an urgent medical issue, please contact your doctor directly.
+User: Or call nine one one.
+Agent: Fine. Whatever. I guess I'll just wait for them to call me back then. This is pretty frustrating though.
+User: I understand this is frustrating, and I'm sorry for the inconvenience. The clinic support team will reach out as soon as they can to help with your appointment and medication refill.
+Agent: Alright. So they'll call me at that number I gave you?
+User: Yes. I'll contact you at nine eight zero seven eight six nine nine zero zero The phasing changes or you need to provide a different number, just let us know.
+Agent: Okay, thanks. Bye.
+User: Got it. 
+User: Take care.
+User: Goodbye.
+Agent: Bye.
+
+--- END ---
+
+
+
+
+[2026-02-15T22:59:27.330521] ISSUE: Agent misheard phone number initially - said 2014 instead of 0147
+
+[2026-02-15T22:59:27.383731] ISSUE: System unable to access patient record despite providing name, DOB, and phone number - major functionality issue
+
+[2026-02-15T22:59:27.384329] ISSUE: Agent did not offer alternative solutions when system failed to access record
+
+[2026-02-15T22:59:27.391835] ISSUE: No specific timeframe given for callback - only vague 'usually within one business day'
+
+============================================================
+[2026-02-15T22:59:31.894905] TRANSCRIPT
+Call ID: call_7382403674d48a82f4d972e1394
+Duration: 260s
+Recording: https://dxc03zgurdly9.cloudfront.net/880d48bc04f3bd9c4cfd4385a4a6f5601f152e85d9d79512c13bbe88b5e6feb0/recording.wav
+
+--- CONVERSATION ---
+User: This call may be recorded for quality and training purposes. But I Thanks for calling To The Point Orthopaedics. Part of Pretty Good AI. Am I speaking with Suhay Budin?
+Agent: Uh, no, this is actually... um, this is Sarah. Sarah Mitchell.
+User: Got it, Sarah. May I have your date of birth to verify your information?
+Agent: Um, yeah, it's...uh, March 15th, 1985.
+User: Me confirm. Your name is Sarah Mitchell. And your date of birth is March fifteenth nineteen eighty five. Is that correct?
+User: If so, could you please spell your first and last name for me?
+Agent: Oh, yeah, sorry. Um, it's S-A-R-A-H... and then Mitchell is M-I-T-C-H-E-L-L.
+User: Would you like to use your phone number to help look up your record?
+User: If yes, please provide the number you have on file with us. If you're not sure, let me know, and I'll confirm your name and date of birth again.
+Agent: Oh, uh, yeah, sure. It's... um, 555-20147. Area code 617.
+User: Let me confirm. I have your phone number as six one seven five five five two zero one four and your date of birth as March fifteenth nineteen eighty five. Is that correct?
+Agent: Wait, no, I said 555-0147, not 2014. Like, zero one four seven.
+User: Let me confirm. Your phone number is six one seven five five five zero one four seven and your date of birth is March fifteenth nineteen eighty five. Is that correct?
+Agent: Yes, that's right.
+User: I can't access your record right now. I'll let our clinic support team know. And they'll follow-up with you as soon as possible. Please hold on a moment while I document your request. I've documented your information for our clinic support team. They'll get back to you as soon as they can to help with your request. Is there anything else I can assist you with right now?
+Agent: Um, well, I was actually calling to schedule an appointment, but... I guess if you can't access my record, that's a problem. Like, how long will it take for someone to call me back?
+User: I understand you want to schedule an appointment. Our clinic support team will reach out to you as soon as possible to help with this. Response times can vary, but they usually get back within one business day. Is there anything else you'd like me to relay to the team for your appointment request?
+Agent: Uh, yeah, I guess... I mean, I've been having some knee pain, and I wanted to see someone about it. Like, maybe next week if possible? But I guess they'll call me back about that?
+User: Got it. I'll note that you're having knee pain and would like an appointment next week if possible. Our team will use this information when they reach out to you. If there's anything else you want to mention about your knee or your schedule, just let me know.
+Agent: No, I think that's it. Um, okay, thanks. Bye.
+
+--- END ---
