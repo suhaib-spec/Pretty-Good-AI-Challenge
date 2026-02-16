@@ -1,0 +1,42 @@
+
+[2026-02-15T18:06:19.084286] ISSUE: Agent could not complete appointment scheduling - had to escalate to clinic support team instead of booking appointment directly
+
+[2026-02-15T18:06:19.109369] ISSUE: Phone number provided was only 7 digits (555-0147) but agent accepted it without questioning - should be 10 digits
+
+[2026-02-15T18:06:19.109901] ISSUE: Agent asked to spell name after already confirming it, then switched to asking about phone number lookup - confusing flow
+
+[2026-02-15T18:06:19.110418] ISSUE: Agent misheard date of birth as 1980 instead of 1985 initially - transcription or listening error
+
+============================================================
+[2026-02-15T18:06:21.199756] TRANSCRIPT
+Call ID: call_64892299a4050f6dc0fb0de0836
+Duration: 197s
+Recording: https://dxc03zgurdly9.cloudfront.net/a95a83aef1fefa4561da1cb8389275a8c825672b4a5a271034fcbbb81a0e75e7/recording.wav
+
+--- CONVERSATION ---
+User: This call may be recorded for quality and training purposes.
+User: Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. Am I speaking with Sue Hai Boden?
+Agent: Uh, no, actually. This is... um, this is Jennifer. Jennifer Martinez.
+User: Got it, Jennifer. Can I get your date of birth?
+User: To help with your request?
+Agent: Oh, yeah, sorry. Um, it's March 15th, 1985.
+User: Let me confirm I have your name as Jennifer Martinez, and your date of birth is March fifteenth. Nineteen eighty. Is that correct?
+User: If so, could you please spell your first and last name for me?
+Agent: Wait, no - you said nineteen eighty, but I said nineteen eighty-five. My birth year is 1985, not 1980.
+User: Thanks for clarifying. To confirm, is your date of birth March fifteenth nineteen eighty five?
+User: If that's correct, can you please spell your first and last name for me?
+Agent: Yes, that's correct. Um, it's J-E-N-N-I-F-E-R, and then Martinez is M-A-R-T-I-N-E-Z.
+User: Would you like me to look up your record using a phone number?
+User: If so, please provide the number you have on file with us.
+User: you're not sure, let me know, and we can try again with your name and date of birth.
+Agent: Oh, uh, yeah - let me just give you my phone number. It's 555-0147.
+User: Let me confirm. Your phone number is five five five zero one four seven. And your date of birth is March fifteenth nineteen eighty five. Is that correct?
+Agent: Yes, that's correct.
+User: Can't proceed further right now, but I'll make sure our clinic support team follows up with you. Let me document your request for their review. Can you tell me what you need help with today so I can include it in my note?
+Agent: Oh, um, I was actually calling to schedule an appointment. I've been having some knee pain for like the past couple weeks and I wanted to see a doctor about it.
+User: Got it. I've noted that you need to see a doctor for knee pain that's lasted a couple of weeks. Our clinic support team will reach out as soon as they can to help you schedule an appointment. Is there anything else you'd like me to mention in my note for them?
+Agent: Um, no, I think that's it. So... they'll just call me back then?
+User: Yes. That's right. The clinic support team will call you back as soon as possible to help with your appointment. If you have any other questions, just let us know.
+Agent: Okay, thanks. Bye.
+
+--- END ---
