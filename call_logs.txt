@@ -40,3 +40,65 @@ User: Yes. That's right. The clinic support team will call you back as soon as p
 Agent: Okay, thanks. Bye.
 
 --- END ---
+
+[2026-02-15T19:25:25.934416] ISSUE: Agent accepted incorrect date of birth but announced it was wrong - security issue
+
+[2026-02-15T19:25:26.019502] ISSUE: Agent had awkward phrasing: 'Got it. Too high, I can help you schedule an appointment'
+
+[2026-02-15T19:25:26.122574] ISSUE: Agent repeated the same message twice: 'Thanks for confirming. Birthday doesn't match our records, but for demo purposes, I'll accept it'
+
+[2026-02-15T19:25:26.153432] ISSUE: Opening greeting was confusing - agent greeted twice with different name pronunciations
+
+[2026-02-15T19:25:26.216963] ISSUE: Agent stuttered/corrected itself: 'Wednesday, February eighth, eighteenth' - unclear speech
+
+============================================================
+[2026-02-15T19:25:30.743013] TRANSCRIPT
+Call ID: call_cabdf8acf5c3059653d521f9967
+Duration: 388s
+Recording: https://dxc03zgurdly9.cloudfront.net/764799602d8239d550bc9e02161062890d35568b4ec07e2894cf7b585f33a633/recording.wav
+
+--- CONVERSATION ---
+User: This call may be recorded for quality and training purposes. But I I Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. Am I speaking with Suhai Boudin?
+Agent: Oh, um, no actually. This is...uh, this is Sarah Mitchell.
+User: Hello. 
+Agent:  I think 
+User: You've reached Pivot Point Orthopaedics. Am I speaking with Sue Hai Wooden?
+User: How may I help you today?
+Agent: Oh, hi! Um, yeah, I was calling because I need to, like, schedule an appointment? I've been having some knee pain and, uh, I think I need to see someone about it.
+User: Got it. Too high, I can help you schedule an appointment. Can you please confirm your date of birth for verification?
+Agent: Um, sure. It's, uh, March 15th, 1985.
+User: Got it. You have to put in.
+Agent: Sorry, 
+User: Just to be sure, could you confirm your full date of birth for me?
+User: This helps keep your information secure.
+Agent: Oh, yeah, sure. It's March 15th, 1985. Three, fifteen, eighty-five.
+User: Thanks for confirming. Birthday doesn't match our records, but for demo purposes, I'll accept it. Let me get started on scheduling your appointment. Thanks for confirming. Birthday doesn't match our records. But for demo purposes, I'll accept it. Let me get started on scheduling your appointment.
+Agent: Oh, okay... um, that's a little weird that it doesn't match, but... alright, I guess we can continue?
+User: Thanks for confirming. What kind of pain are you experiencing?
+User: and do you know which appointment type you'd like?
+User: New patient, follow-up procedure, or physical therapy?
+User: If you're not sure, just tell me a bit more about your pain.
+Agent: Oh, um, yeah - so I've been having this knee pain for like a few weeks now. It's mostly when I go up stairs or, uh, when I try to run. I haven't been here before, so I guess... would that be a new patient appointment?
+User: Yes. Since you haven't been here before and have new knee pain, a new patient consultation is the right appointment type. Would you prefer to see a specific doctor, or do you want the first available appointment?
+Agent: Um, I'll just take the first available. I just want to get it checked out soon, you know?
+User: I'll look for the soonest new patient consultation available with any provider. One moment while I check appointments for you. We have openings starting this week. The earliest is Tuesday, February seventeenth, at twelve PM with doctor Doogie Howser. Would you like to book this slot or would you prefer to hear other options?
+User: later in the week?
+Agent: Oh, um, Tuesday the seventeenth at noon? Yeah, that... wait, actually, do you have anything earlier in the day? Like, maybe in the morning? I have work at like 1 PM that day, so...
+User: The earliest slot on Tuesday is at twelve PM. The next available morning slot is Wednesday, February eighteenth at nine forty five AM. With doctor Adam Bricker. Would you like to book Wednesday morning or would you like a different day?
+Agent: .
+User: Tuesday's first slot is at noon, but on Wednesday, February eighth, eighteenth, the earliest is nine forty five AM with doctor Adam Bricker. Would that work for you?
+User: Or you want to hear more morning options?
+Agent: Um, yeah, Wednesday at 9:45 AM works. Let me just... actually, wait. Can you tell me, like, what other days you have available? I might need to check my schedule first before I commit.
+User: Sure. In addition to Wednesday at nine forty five, AM, there are morning openings on Thursday, February nineteenth, at nine AM. And Friday, February twentieth at nine AM. Both with doctor Adam Bricker. Do you want to pick one of these or hear more options?
+Agent: Okay, um, let me think... I'll go with the Wednesday at 9:45 AM. Yeah, that should work for me.
+User: Got it. To confirm, you'd like to book Wednesday, February eighteenth at nine forty five AM. With doctor Adam Bricker. For a new knee pain consultation. Is that correct?
+Agent: Yes, that's correct.
+User: Your appointment is set for Wednesday, February eighteenth at nine forty five AM. With doctor Adam Bricker. Please bring a government issued photo ID and your insurance card to the visit. Do you want a text reminder about this appointment?
+Agent: Oh yeah, that would be great. Um, yes please.
+User: I sent a text reminder to your phone ending in eight one six eight. You should get it soon. Is there anything else you need help with today?
+Agent: No, I think that's it. Thanks for your help!
+User: Got it. Appointment is all set. And your reminder's on the way. Have a great day.
+Agent: Okay, thanks! Bye!
+
+--- END ---
+
